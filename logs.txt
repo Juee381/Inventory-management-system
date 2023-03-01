@@ -1,0 +1,14 @@
+01-03-2023 11:07:15 | DEBUG    [registry.py:register_crypt_handler:lineno:296] | registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+01-03-2023 11:07:15 | INFO     [_internal.py:_log:lineno:224] | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+01-03-2023 11:07:15 | INFO     [_internal.py:_log:lineno:224] | [33mPress CTRL+C to quit[0m
+01-03-2023 11:07:27 | INFO     [_internal.py:_log:lineno:224] | 127.0.0.1 - - [01/Mar/2023 11:07:27] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+01-03-2023 11:07:44 | INFO     [_internal.py:_log:lineno:224] | 127.0.0.1 - - [01/Mar/2023 11:07:44] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+01-03-2023 11:07:59 | INFO     [_internal.py:_log:lineno:224] | 127.0.0.1 - - [01/Mar/2023 11:07:59] "POST /login HTTP/1.1" 200 -
+01-03-2023 11:08:12 | INFO     [_internal.py:_log:lineno:224] | 127.0.0.1 - - [01/Mar/2023 11:08:12] "GET /item HTTP/1.1" 200 -
+01-03-2023 11:08:20 | INFO     [store.py:post:lineno:28] | inserting store data
+01-03-2023 11:08:20 | INFO     [_internal.py:_log:lineno:224] | 127.0.0.1 - - [01/Mar/2023 11:08:20] "[35m[1mPOST /store HTTP/1.1[0m" 201 -
+01-03-2023 11:08:23 | INFO     [item.py:post:lineno:30] | converting time into CTS timezone
+01-03-2023 11:08:23 | INFO     [item.py:post:lineno:34] | inserting item data
+01-03-2023 11:08:23 | INFO     [_internal.py:_log:lineno:224] | 127.0.0.1 - - [01/Mar/2023 11:08:23] "[35m[1mPOST /item HTTP/1.1[0m" 201 -
+01-03-2023 11:08:27 | INFO     [_internal.py:_log:lineno:224] | 127.0.0.1 - - [01/Mar/2023 11:08:27] "GET /item HTTP/1.1" 200 -
